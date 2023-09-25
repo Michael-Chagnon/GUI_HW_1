@@ -1,0 +1,143 @@
+<!--
+File: hw1.html
+GUI Assignment: Creating Your First Web Page
+Michael Chagnon, UMass Lowell Computer Science,
+michael_chagnon@student.uml.edu
+Copyright (c) 2021 by Michael. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Created by MC on Spet 17, 2023
+Description: A website with some information about myself, pictures and links
+to my various public pages.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HW1_Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+		<div class = "header">	<!--This is responsible for creating the header on top of the website-->
+			<nav>				<!--including the logo and links to move further down the page.-->
+				<img src="images/michael.png" alt="My logo" class="logo" id="home">
+				<ul class = "nav-links">
+					<li><a href="#home">Home</a></li>	<!--Links to different parts of web page-->
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#links">Links</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<p class="me-text">ME ^</p>
+		
+		<img src="images/me.png" alt="Image of me" class="img me"> <!--Image of me with a description of some things-->
+		<h1 class="h1">Some information about me</h1>				<!--to know about me-->
+		<p class="border">
+			I am a Senior at University of Massachusetts Lowell,<br>
+		studying Computer Science. I have an interest in<br>
+		programming and software development. Some of my <br>
+		personal hobbies include playing instruments,<br>
+		snowboarding, cars, making money, playing games, riding<br>
+		my bike and any other kinds of activities. I have<br>
+		lived and grown up in Lowell my whole life. My<br>
+		previous work experience includes making pizza <br>
+		since I was 14 as well as delivering and installing <br>
+		windows and siding at 18. After college I <br>
+		would like to pursue a career that combines <br>
+		some of the things I am passionate about. <br>
+		Idealy this would be a Software or another <br>
+		Computer Science job that makes a lot of money.<br>
+		With this I will be able to create a life style I have<br>
+		wanted my whole life. To have a fast car, house with<br>
+		a yard so I can mow the grass, many rooms for many<br>
+		activities and lots of materialistic things.
+		</p>
+
+		<b class="table-header">Multiplication Table</b> <!--The following is my use of a HTML table.-->
+		<p class="fun-fact">							<!--I created a multiplication table and gave-->
+		Fun Fact: I never learned<br>					<!--an explination why it was included-->
+		how to multiply past 3<br>
+		in elementray school.<br>
+		So I have this multiplication<br>
+		table here to always remind<br>
+		how to multiply.
+		</p>		
+		<table class="table">
+			<tr>
+				<td>X</td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				</tr>
+				<tr>
+				<td >1</td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				</tr>
+				<tr>
+				<td>2</td>
+				<td>2</td>
+				<td>4</td>
+				<td>6</td>
+				<td>8</td>
+				<td>10</td>
+				</tr>
+				<tr>
+				<td>3</td>
+				<td>3</td>
+				<td>6</td>
+				<td>9</td>
+				<td>12</td>
+				<td>15</td>
+				</tr>
+				<tr>
+				<td>4</td>
+				<td>4</td>
+				<td>8</td>
+				<td>12</td>
+				<td>16</td>
+				<td>20</td>
+				</tr>
+				<tr>
+				<td >5</td>
+				<td>5</td>
+				<td>10</td>
+				<td>15</td>
+				<td>20</td>
+				<td>25</td>
+				</tr>
+		</table>
+
+		<p class="gallery-text underline">Friends</p> <!--The two pieces of text are labels describing my pictures.-->
+		<p class="gallery-text2 underline">My Life</p>
+		<h1 class="gallery underline" id="gallery">Gallery</h1> <!--Header for gallery section-->
+		<img src="images/shivy.png" alt="My good friend Shivam Patel" class="img shivy"> <!--The following are all links for the-->
+		<img src="images/Aman_Baby_Pic2.jpeg" alt="My good friend Aman Baguh" class="img aman"> <!--photos in my gallery-->
+		<img src="images/brian.png" alt="My good friend Brian Turd" class="img brian">
+		<img src="images/zach.png" alt="My good friend Zachy" class="img zach">
+		<img src="images/kato.JPG" alt="My dog Kato" class="img kato">
+		<img src="images/guinness.png" alt="My dog Guinness" class="img guinness">
+		<img src="images/punkin.png" alt="A pumpkin I painted" class="img punkin">
+		<img src="images/garden.png" alt="A garden I went to" class="img garden">
+		<img src="images/beach.png" alt="Me at the beach" class="img beach">
+		<img src="images/chip.png" alt="An image very close to my heart" class="img chip">
+
+		<p id="links" class="links underline">Links</p> <!--Header for links-->
+		<a class="linkedin" href="https://www.linkedin.com/in/michael-chagnon-24514a254/">LinkedIn</a> <!--Various social links-->
+		<a class="github" href="https://github.com/Michael-Chagnon">GitHub</a>
+		<a class="email" href="mailto:noemailhere@gmail.com">Email</a>
+
+		<p class="validation"> <!--HTML format validation-->
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss"
+					alt="Valid CSS!">
+			</a>
+		</p>
+	</body>
+</html>

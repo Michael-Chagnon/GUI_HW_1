@@ -1,0 +1,184 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color:#33475b;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background: #33475b;
+  position: static;
+}
+
+td{
+  color: darkred;
+}
+
+h1 {
+  position:absolute; left:10px; top:100px; color: white;
+}
+
+table{
+  position:absolute; left:10px; top:610px; background-color: white;
+  border: 5px solid;
+}
+
+.me-text{
+  position:absolute; left:1200px; top:510px; color: white;
+  font-size: 20px;
+}
+
+.table-header{
+  position:absolute; left:10px; top:590px; color: white;
+}
+
+.fun-fact{
+  position:absolute; left:160px; top:620px; color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.border {
+  font-size: 18px;
+  border: #121921;
+  border-width: 10px;
+  border-style: inset;
+  position:absolute; left:10px; top:155px; background-color: #89bdf1;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-links li {
+  display: inline-flex;
+  margin: 0 50px 0 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.img {
+  border-radius: 80px;
+  width: 200px;
+}
+
+.shivy{
+  position:absolute; left:1100px; top:1100px;
+  width: 300px;
+}
+
+.aman{
+  position:absolute; left:960px; top:1500px;
+}
+
+.zach{
+  position:absolute; left:830px; top:1150px;
+  width: 250px;
+}
+
+.me{
+  position:absolute; left:1100px; top:100px;
+  width: 300px;
+}
+
+.kato{
+  position:absolute; left:670px; top:1130px;
+  width: 150px;
+}
+
+.brian{
+  position:absolute; left:1200px; top:1530px;
+  width: 200px;
+}
+
+.guinness{
+  position:absolute; left:800px; top:1530px;
+  width: 150px;
+}
+
+.punkin{
+  position:absolute; left:10px; top:1200px;
+  width: 150px;
+}
+
+.garden{
+  position:absolute; left:80px; top:1430px;
+  width: 250px;
+}
+
+.beach{
+  position:absolute; left:360px; top:1430px;
+  width: 250px;
+}
+
+.chip{
+  position:absolute; left:200px; top:1130px;
+  width: 240px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.gallery {
+  position:absolute; left:700px; top:850px;
+  font-size: 4em;
+  animation: color-change 7s infinite;
+}
+
+.gallery-text{
+  color:white;
+  font-size: 40px;
+  position:absolute; left:900px; top:1000px;
+}
+
+.gallery-text2{
+  color:white;
+  font-size: 40px;
+  position:absolute; left:90px; top:1030px;
+}
+
+@keyframes color-change {
+  0% { color: #1b2732; }
+  50% { color: #ffffff; }
+  100% { color: #1b2732; }
+}
+
+.links{
+  position:absolute; left:700px; top:1750px;
+  font-size: 80px;
+  animation: color-change 7s infinite;
+}
+
+.linkedin{
+  position:absolute; left:300px; top:2000px;
+  font-size: 50px;
+  color: #89bdf1;
+}
+
+.github{
+  position:absolute; left:700px; top:2000px;
+  font-size: 50px;
+  color: #89bdf1;
+}
+
+.email{
+  position:absolute; left:1100px; top:2000px;
+  font-size: 50px;
+  color: #89bdf1;
+}
+
+.validation{
+  position: absolute; left:1400px; top:2000px;
+}
